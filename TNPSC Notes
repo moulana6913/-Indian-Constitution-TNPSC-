@@ -1,0 +1,1084 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>இந்திய அரசியலமைப்பு - TNPSC</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@400;600;700;800&display=swap"
+rel="stylesheet">
+
+<style>
+
+/* =========================
+   GLOBAL
+========================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #eee6d2;
+    font-family: "Noto Sans Tamil", Arial, sans-serif;
+    color: #222;
+}
+
+
+/* =========================
+   MAIN POSTER
+========================= */
+
+.poster {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fffaf0;
+    border: 8px double #8b6b32;
+    box-shadow: 0 5px 20px #777;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+.header {
+    text-align: center;
+    background: #24384d;
+    color: white;
+    padding: 18px 10px;
+    border-radius: 5px;
+    margin-bottom: 18px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+.header p {
+    margin: 8px 0 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* =========================
+   SECTIONS
+========================= */
+
+.section {
+    border: 2px solid #9b7b3c;
+    margin-bottom: 18px;
+    padding: 15px;
+    background: #fffdf7;
+}
+
+.section-title {
+    font-size: 23px;
+    font-weight: bold;
+    color: #7b251c;
+    margin-bottom: 12px;
+    border-bottom: 2px solid #c9a85c;
+    padding-bottom: 7px;
+}
+
+.content {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.highlight {
+    color: #a52a2a;
+    font-weight: bold;
+}
+
+
+/* =========================
+   IMPORTANT INFORMATION BOX
+========================= */
+
+.info-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.info {
+    border: 1px solid #9b7b3c;
+    padding: 12px;
+    text-align: center;
+    background: #f7efd9;
+    font-weight: bold;
+}
+
+
+/* =========================
+   BASIC INFORMATION TABLE
+========================= */
+
+.info-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.info-table th,
+.info-table td {
+    border: 2px solid #9b7b3c;
+    padding: 10px;
+    text-align: center;
+}
+
+.info-table th {
+    background: #24384d;
+    color: white;
+}
+
+.info-table td {
+    background: #fffaf0;
+}
+
+
+/* Number cell */
+
+.number-cell {
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    color: #8b0000;
+    background: linear-gradient(to right, #fff8e7, #f5e6c8);
+    border-left: 3px solid #8b0000;
+}
+
+
+/* =========================
+   PARTS TABLE
+========================= */
+
+.parts-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fffdf5;
+}
+
+.parts-table th {
+    background: #26394d;
+    color: white;
+    padding: 12px;
+    border: 1px solid #9b7837;
+    font-size: 18px;
+}
+
+.parts-table td {
+    padding: 10px;
+    border: 1px solid #9b7837;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.parts-table td:first-child {
+    width: 20%;
+    text-align: center;
+    font-weight: 800;
+    color: #8b2d23;
+    background: #f4ecd8;
+}
+
+.parts-table tr:nth-child(even) td {
+    background: #faf5e8;
+}
+
+.parts-table tr:nth-child(even) td:first-child {
+    background: #f0e5ca;
+}
+
+
+/* =========================
+   NOTE BOX
+========================= */
+
+.note-box {
+    text-align: left;
+    padding: 12px;
+    background: #fff8e7;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+.footer {
+    margin-top: 20px;
+    padding: 15px;
+    border-top: 2px solid #9b7b3c;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 5px;
+    }
+
+    .poster {
+        margin: 5px;
+        padding: 10px;
+        border-width: 4px;
+    }
+
+    .header h1 {
+        font-size: 22px;
+    }
+
+    .header p {
+        font-size: 15px;
+    }
+
+    .section-title {
+        font-size: 19px;
+    }
+
+    .content {
+        font-size: 15px;
+    }
+
+    .info-box {
+        grid-template-columns: 1fr;
+    }
+
+    .info-table th,
+    .info-table td {
+        font-size: 14px;
+        padding: 7px;
+    }
+
+    .parts-table th {
+        font-size: 14px;
+        padding: 7px;
+    }
+
+    .parts-table td {
+        font-size: 14px;
+        padding: 7px;
+        font-weight: bold;
+    }
+
+    .note-box {
+        font-size: 14px;
+    }
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+<div class="poster">
+
+
+<!-- =========================
+     HEADER
+========================= -->
+
+<div class="header">
+
+    <h1>
+        அரசியலமைப்புச் சட்டம்
+        (Indian Constitution)
+    </h1>
+
+    <p>
+        TNPSC முக்கிய குறிப்புகள்
+    </p>
+
+</div>
+
+
+<!-- =========================
+     1. CONSTITUTION
+========================= -->
+
+<div class="section">
+
+    <div class="section-title">
+        1. அரசியலமைப்பு என்றால் என்ன?
+    </div>
+
+    <div class="content">
+
+        📜 ஒரு நாட்டின் ஆட்சி முறைகள்,
+        அரசின் அதிகாரங்கள்,
+        குடிமக்களின் உரிமைகள் மற்றும் கடமைகளை
+        வரையறுக்கும் உயரிய சட்டமே
+        <span class="highlight">
+            அரசியலமைப்புச் சட்டம்
+        </span>.
+
+    </div>
+
+</div>
+
+
+<!-- =========================
+     2. CREATION
+========================= -->
+
+<div class="section">
+
+    <div class="section-title">
+        2. இந்திய அரசியலமைப்பு உருவாக்கம்
+    </div>
+
+    <div class="content">
+
+        <p>
+            🏛️ <b>உருவாக்கிய சபை</b> –
+            அரசியலமைப்பு நிர்ணய சபை
+            (Constituent Assembly)
+        </p>
+
+        <p>
+            👤 <b>தலைவர்</b> –
+            டாக்டர் ராஜேந்திர பிரசாத்
+        </p>
+
+        <p>
+            ⚖️ <b>வரைவுக் குழுத் தலைவர்</b> –
+            டாக்டர் பி.ஆர். அம்பேத்கர்
+        </p>
+
+        <p>
+            📅 <b>ஏற்றுக்கொண்ட நாள்</b> –
+            26 நவம்பர் 1949
+        </p>
+
+        <p>
+            🇮🇳 <b>அமலுக்கு வந்த நாள்</b> –
+            26 ஜனவரி 1950
+        </p>
+
+        <p>
+            📖 இந்திய அரசியலமைப்பு
+            உலகின் மிக நீளமான எழுதப்பட்ட
+            தேசிய அரசியலமைப்பாக பொதுவாக குறிப்பிடப்படுகிறது.
+        </p>
+
+    </div>
+
+</div>
+
+
+<!-- =========================
+     3. IMPORTANT INFORMATION
+========================= -->
+
+<div class="section">
+
+    <div class="section-title">
+        3. முக்கிய தகவல்கள்
+    </div>
+
+    <table class="info-table">
+
+        <tr>
+            <th>
+                விவரம்
+            </th>
+
+            <th>
+                தகவல்
+            </th>
+        </tr>
+
+        <tr>
+            <td>
+                பகுதிகள் (Parts)
+            </td>
+
+            <td class="number-cell">
+                25 Parts
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                கட்டுரைகள் (Articles)
+            </td>
+
+            <td class="number-cell">
+                1–395
+                <br>
+                (Article numbering)
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                அட்டவணைகள் (Schedules)
+            </td>
+
+            <td class="number-cell">
+                12 Schedules
+            </td>
+        </tr>
+
+    </table>
+
+    <div class="note-box">
+
+        📝 <b>குறிப்பு:</b>
+        395 என்பது அரசியலமைப்பின்
+        கடைசி Article number ஆகும்.
+        இடையில் 21A, 51A, 243A போன்ற
+        எழுத்து இணைப்புகளுடன் பல Articles
+        சேர்க்கப்பட்டுள்ளன.
+
+    </div>
+
+</div>
+
+
+<!-- =========================
+     4. PARTS
+========================= -->
+
+<div class="section">
+
+    <div class="section-title">
+        4. பகுதிகள் (Parts) – 25
+    </div>
+
+
+    <table class="parts-table">
+
+        <thead>
+
+            <tr>
+
+                <th>
+                    பகுதி
+                </th>
+
+                <th>
+                    தலைப்பு
+                </th>
+
+                <th>
+                    கட்டுரைகள்
+                </th>
+
+            </tr>
+
+        </thead>
+
+
+        <tbody>
+
+
+            <!-- PART I -->
+
+            <tr>
+
+                <td>
+                    பகுதி I
+                </td>
+
+                <td>
+                    ஒன்றியமும் அதன் நிலப்பரப்பும்
+                </td>
+
+                <td>
+                    1–4
+                </td>
+
+            </tr>
+
+
+            <!-- PART II -->
+
+            <tr>
+
+                <td>
+                    பகுதி II
+                </td>
+
+                <td>
+                    குடியுரிமை
+                </td>
+
+                <td>
+                    5–11
+                </td>
+
+            </tr>
+
+
+            <!-- PART III -->
+
+            <tr>
+
+                <td>
+                    பகுதி III
+                </td>
+
+                <td>
+                    அடிப்படை உரிமைகள்
+                </td>
+
+                <td>
+                    12–35
+                </td>
+
+            </tr>
+
+
+            <!-- PART IV -->
+
+            <tr>
+
+                <td>
+                    பகுதி IV
+                </td>
+
+                <td>
+                    அரசின் கொள்கை வழிகாட்டும் நெறிமுறைகள்
+                </td>
+
+                <td>
+                    36–51
+                </td>
+
+            </tr>
+
+
+            <!-- PART IV-A -->
+
+            <tr>
+
+                <td>
+                    பகுதி IV-A
+                </td>
+
+                <td>
+                    அடிப்படை கடமைகள்
+                </td>
+
+                <td>
+                    51A
+                </td>
+
+            </tr>
+
+
+            <!-- PART V -->
+
+            <tr>
+
+                <td>
+                    பகுதி V
+                </td>
+
+                <td>
+                    ஒன்றிய அரசு
+                </td>
+
+                <td>
+                    52–151
+                </td>
+
+            </tr>
+
+
+            <!-- PART VI -->
+
+            <tr>
+
+                <td>
+                    பகுதி VI
+                </td>
+
+                <td>
+                    மாநிலங்கள்
+                </td>
+
+                <td>
+                    152–237
+                </td>
+
+            </tr>
+
+
+            <!-- PART VII -->
+
+            <tr>
+
+                <td>
+                    பகுதி VII
+                </td>
+
+                <td>
+                    முதல் அட்டவணையின்
+                    B வகுதி மாநிலங்கள்
+                    <br>
+                    <b>(வரலாற்று பகுதி)</b>
+                </td>
+
+                <td>
+                    238
+                    <br>
+                    <b>நீக்கப்பட்டது</b>
+                </td>
+
+            </tr>
+
+
+            <!-- PART VIII -->
+
+            <tr>
+
+                <td>
+                    பகுதி VIII
+                </td>
+
+                <td>
+                    ஒன்றியப் பிரதேசங்கள்
+                </td>
+
+                <td>
+                    239–241
+                    <br>
+                    242 – நீக்கப்பட்டது
+                </td>
+
+            </tr>
+
+
+            <!-- PART IX -->
+
+            <tr>
+
+                <td>
+                    பகுதி IX
+                </td>
+
+                <td>
+                    பஞ்சாயத்துகள்
+                </td>
+
+                <td>
+                    243–243O
+                </td>
+
+            </tr>
+
+
+            <!-- PART IX-A -->
+
+            <tr>
+
+                <td>
+                    பகுதி IX-A
+                </td>
+
+                <td>
+                    நகராட்சிகள்
+                </td>
+
+                <td>
+                    243P–243ZG
+                </td>
+
+            </tr>
+
+
+            <!-- PART IX-B -->
+
+            <tr>
+
+                <td>
+                    பகுதி IX-B
+                </td>
+
+                <td>
+                    கூட்டுறவுச் சங்கங்கள்
+                </td>
+
+                <td>
+                    243ZH–243ZT
+                </td>
+
+            </tr>
+
+
+            <!-- PART X -->
+
+            <tr>
+
+                <td>
+                    பகுதி X
+                </td>
+
+                <td>
+                    பட்டியலிடப்பட்ட மற்றும்
+                    பழங்குடியினர் பகுதிகள்
+                </td>
+
+                <td>
+                    244–244A
+                </td>
+
+            </tr>
+
+
+            <!-- PART XI -->
+
+            <tr>
+
+                <td>
+                    பகுதி XI
+                </td>
+
+                <td>
+                    ஒன்றியத்திற்கும்
+                    மாநிலங்களுக்கும் இடையிலான உறவுகள்
+                </td>
+
+                <td>
+                    245–263
+                </td>
+
+            </tr>
+
+
+            <!-- PART XII -->
+
+            <tr>
+
+                <td>
+                    பகுதி XII
+                </td>
+
+                <td>
+                    நிதி, சொத்து, ஒப்பந்தங்கள் மற்றும் வழக்குகள்
+                </td>
+
+                <td>
+                    264–300A
+                </td>
+
+            </tr>
+
+
+            <!-- PART XIII -->
+
+            <tr>
+
+                <td>
+                    பகுதி XIII
+                </td>
+
+                <td>
+                    இந்திய எல்லைப்பகுதிக்குள்
+                    வாணிபம், வணிகம் மற்றும் பரிமாற்றம்
+                </td>
+
+                <td>
+                    301–307
+                </td>
+
+            </tr>
+
+
+            <!-- PART XIV -->
+
+            <tr>
+
+                <td>
+                    பகுதி XIV
+                </td>
+
+                <td>
+                    ஒன்றியம் மற்றும் மாநிலங்களின்
+                    கீழ் உள்ள பணிகள்
+                </td>
+
+                <td>
+                    308–323
+                </td>
+
+            </tr>
+
+
+            <!-- PART XIV-A -->
+
+            <tr>
+
+                <td>
+                    பகுதி XIV-A
+                </td>
+
+                <td>
+                    தீர்ப்பாயங்கள்
+                </td>
+
+                <td>
+                    323A–323B
+                </td>
+
+            </tr>
+
+
+            <!-- PART XV -->
+
+            <tr>
+
+                <td>
+                    பகுதி XV
+                </td>
+
+                <td>
+                    தேர்தல்கள்
+                </td>
+
+                <td>
+                    324–329
+                    <br>
+                    329A – நீக்கப்பட்டது
+                </td>
+
+            </tr>
+
+
+            <!-- PART XVI -->
+
+            <tr>
+
+                <td>
+                    பகுதி XVI
+                </td>
+
+                <td>
+                    சில குறிப்பிட்ட பிரிவினருக்கான
+                    சிறப்பு ஏற்பாடுகள்
+                </td>
+
+                <td>
+                    330–342A
+                </td>
+
+            </tr>
+
+
+            <!-- PART XVII -->
+
+            <tr>
+
+                <td>
+                    பகுதி XVII
+                </td>
+
+                <td>
+                    அதிகாரப்பூர்வ மொழி
+                </td>
+
+                <td>
+                    343–351
+                </td>
+
+            </tr>
+
+
+            <!-- PART XVIII -->
+
+            <tr>
+
+                <td>
+                    பகுதி XVIII
+                </td>
+
+                <td>
+                    அவசர கால ஏற்பாடுகள்
+                </td>
+
+                <td>
+                    352–360
+                </td>
+
+            </tr>
+
+
+            <!-- PART XIX -->
+
+            <tr>
+
+                <td>
+                    பகுதி XIX
+                </td>
+
+                <td>
+                    இதர
+                </td>
+
+                <td>
+                    361–367
+                </td>
+
+            </tr>
+
+
+            <!-- PART XX -->
+
+            <tr>
+
+                <td>
+                    பகுதி XX
+                </td>
+
+                <td>
+                    அரசியலமைப்புத் திருத்தம்
+                </td>
+
+                <td>
+                    368
+                </td>
+
+            </tr>
+
+
+            <!-- PART XXI -->
+
+            <tr>
+
+                <td>
+                    பகுதி XXI
+                </td>
+
+                <td>
+                    தற்காலிக, இடைக்கால மற்றும்
+                    சிறப்பு ஏற்பாடுகள்
+                </td>
+
+                <td>
+                    369–392
+                </td>
+
+            </tr>
+
+
+            <!-- PART XXII -->
+
+            <tr>
+
+                <td>
+                    பகுதி XXII
+                </td>
+
+                <td>
+                    குறுந்தலைப்பு, தொடக்கம்,
+                    இந்தி மொழியில் அதிகாரப்பூர்வ உரை
+                    மற்றும் ரத்துகள்
+                </td>
+
+                <td>
+                    393–395
+                    <br>
+                    394A உட்பட
+                </td>
+
+            </tr>
+
+
+            <!-- NOTE -->
+
+            <tr>
+
+                <td colspan="3">
+
+                    <div class="note-box">
+
+                        <b>📝 குறிப்பு :</b>
+
+                        <br>
+
+                        • முதலில் 22 Parts இருந்தன.
+
+                        <br>
+
+                        • Part VII – 1956-ல் நீக்கப்பட்டது.
+
+                        <br>
+
+                        • Part IV-A – அடிப்படை கடமைகள்
+                        சேர்க்கப்பட்டது.
+
+                        <br>
+
+                        • Part IX-A – நகராட்சிகள்
+                        சேர்க்கப்பட்டது.
+
+                        <br>
+
+                        • Part IX-B – கூட்டுறவுச் சங்கங்கள்
+                        சேர்க்கப்பட்டது.
+
+                        <br>
+
+                        • Part XIV-A – தீர்ப்பாயங்கள்
+                        சேர்க்கப்பட்டது.
+
+                        <br><br>
+
+                        <b>
+                        எனவே தற்போதைய அரசியலமைப்பில்
+                        25 Parts உள்ளன.
+                        </b>
+
+                    </div>
+
+                </td>
+
+            </tr>
+
+
+        </tbody>
+
+    </table>
+
+</div>
+
+
+<!-- =========================
+     FOOTER
+========================= -->
+
+<div class="footer">
+
+    🇮🇳 இந்திய அரசியலமைப்பு
+    | TNPSC முக்கிய குறிப்புகள் 🇮🇳
+
+</div>
+
+
+</div>
+
+</body>
+</html>
